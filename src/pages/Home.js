@@ -20,7 +20,7 @@ export default function Home() {
 		<div>
 			<Header />
 			<div className="lg:flex lg:justify-between bg-[#AFAFAF] py-12 pb-44 relative">
-				<h1 className="font-bold text-5xl lg:w-[40%] w-[100%]  h-[50%] mx-12 my-20">
+				<h1 className="font-bold text-5xl lg:w-[40%] w-[70%] mb-12 h-[50%] mx-12 lg:my-20">
 					Improving lives <br />by <br />rendering intellectual ability
 				</h1>
 				<div className="lg:w-[50%] lg:h-[40%] mx-12">
@@ -41,7 +41,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="drop-shadow-2xl rounded-xl mx-8 h-16 p-8 mt-24 grid grid-cols-3 lg:flex lg:justify-between gap-4 items-center">
+			<div className="drop-shadow-2xl rounded-xl h-16 p-8 mt-24 grid grid-cols-2 justify-items-center lg:flex lg:justify-between gap-8 items-center">
 				<img src={ansys} alt="ANSYS" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 				<img src={autocad} alt="AUTOCAD" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 				<img src={blender} alt="BLENDER" width={200} height={200} className="lg:w-[90px] w-[50%]" />
@@ -54,8 +54,8 @@ export default function Home() {
 				<img src={solidworks} alt="SOLID WORKS" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 			</div>
 
-			<section className="lg:flex lg:justify-between mt-[350px] mx-12 lg:mt-[100px] items-center">
-				<p className="w-[70%] lg:w-[50%] py-12 text-center font-semibold text-3xl">
+			<section className="lg:flex lg:justify-between mt-[400px] mx-12 lg:mt-[100px] items-center">
+				<p className="w-[90%] lg:w-[50%] py-12 text-center font-semibold text-3xl">
 					Offset the burden of research <br />and<br />development when you choose Rhinospine
 				</p>
 

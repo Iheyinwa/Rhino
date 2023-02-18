@@ -10,7 +10,7 @@ export default function About() {
 		borderLeftColor: '#00013f',
 		padding: '32px',
 		borderRadius: '12px',
-		marginBottom: '16px',
+		marginBottom: '18px',
 		display: 'flex',
 		justifyContent: 'space-between',
 		width: '50%',

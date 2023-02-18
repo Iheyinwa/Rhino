@@ -4,7 +4,7 @@ import List from './List';
 
 export default function MobileMenu() {
 	return (
-		<ul className="list-style-none mx-[30px] relative h-[100%]">
+		<ul className="list-style-none relative h-[100%] bg-white w-full">
 			<Link to="/">
 				<List item="Home" />
 			</Link>
