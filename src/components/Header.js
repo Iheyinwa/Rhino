@@ -12,9 +12,9 @@ export default function Header() {
 		<Close />;
 	}
 	return (
-		<div>
-			<nav className="flex justify-between align-middle bg-gray-100">
-				<img src={Rhinospine} alt="RhinoSpine" className="w-[20rem] h-[10rem]" />
+		<div className="sticky top-0 z-10">
+			<nav className="flex justify-between items-center bg-[#AFAFAF]">
+				<img src={Rhinospine} alt="RhinoSpine" className="w-[20rem] h-[10rem] relative right-4" />
 
 				<div className="lg:hidden cursor-pointer my-8 p-8">
 					<Menu onclick={openMenu} />
