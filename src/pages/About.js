@@ -9,12 +9,12 @@ export default function About() {
 		borderLeftWidth: '4px',
 		borderLeftColor: '#00013f',
 		padding: '32px',
-		marginLeft: '48px',
-		marginRight: '48px',
 		borderRadius: '12px',
 		marginBottom: '16px',
 		display: 'flex',
-		justifyContent: 'space-between'
+		justifyContent: 'space-between',
+		width: '50%',
+		margin: 'auto'
 	};
 	return (
 		<div>

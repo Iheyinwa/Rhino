@@ -9,7 +9,6 @@ export default function Header() {
 
 	function openMenu() {
 		setState(!State);
-		<Close />;
 	}
 	return (
 		<div className="sticky top-0 z-10">
@@ -17,7 +16,7 @@ export default function Header() {
 				<img src={Rhinospine} alt="RhinoSpine" className="w-[20rem] h-[10rem] relative right-4" />
 
 				<div className="lg:hidden cursor-pointer my-8 p-8">
-					<Menu onclick={openMenu} />
+					{State ? <Close onclick={openMenu} /> : <Menu onclick={openMenu} className="hidden" />}
 				</div>
 				<ul className="list-style-none lg:flex lg:justify-around p-8 hidden">
 					<Link to="/">

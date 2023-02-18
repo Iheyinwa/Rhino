@@ -23,7 +23,7 @@ export default function Home() {
 				<h1 className="font-bold text-5xl lg:w-[40%] w-[100%]  h-[50%] mx-12 my-20">
 					Improving lives <br />by <br />rendering intellectual ability
 				</h1>
-				<div className="lg:w-[50%] lg:h-[40%]">
+				<div className="lg:w-[50%] lg:h-[40%] mx-12">
 					<img src={rhino} alt="hero" width={700} height={600} className="sm:order-1" />
 				</div>
 				<div className="Hero-wave">
@@ -54,8 +54,8 @@ export default function Home() {
 				<img src={solidworks} alt="SOLID WORKS" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 			</div>
 
-			<section className="lg:flex lg:justify-between mt-24 md:mt-[350px] items-center">
-				<p className="w-full lg:w-[50%] ml-16 md:ml-4 p-[20px] py-12 text-center font-semibold text-3xl">
+			<section className="lg:flex lg:justify-between mt-[350px] mx-12 lg:mt-[100px] items-center">
+				<p className="w-[70%] lg:w-[50%] py-12 text-center font-semibold text-3xl">
 					Offset the burden of research <br />and<br />development when you choose Rhinospine
 				</p>
 

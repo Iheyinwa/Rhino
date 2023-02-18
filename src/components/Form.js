@@ -45,7 +45,7 @@ export default function Form() {
 				placeholder="Your message..."
 				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[70%] lg:w-[100%]"
 			/>
-			<button type="submit" className="bg-[#00013f] text-white rounded-xl p-4 w-[50%] font-semibold">
+			<button type="submit" className="bg-[#00013f] text-white rounded-xl p-4 w-[70%] lg:w-[50%] font-semibold">
 				Send
 			</button>
 		</form>
