@@ -27,14 +27,14 @@ export default function Form() {
 			<label>Name</label>
 			<input
 				type="text"
-				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[70%] lg:w-[100%]"
+				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"
 				name="user_name"
 				placeholder="Your Name"
 			/>
 			<label>Email</label>
 			<input
 				type="email"
-				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[70%] lg:w-[100%]"
+				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"
 				name="user_email"
 				placeholder="Your email"
 			/>
@@ -43,7 +43,7 @@ export default function Form() {
 				name="message"
 				rows="4"
 				placeholder="Your message..."
-				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[70%] lg:w-[100%]"
+				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"
 			/>
 			<button type="submit" className="bg-[#00013f] text-white rounded-xl p-4 w-[70%] lg:w-[50%] font-semibold">
 				Send
