@@ -1,46 +1,40 @@
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useForm } from '@formcarry/react';
 
-export default function Form() {
-	const form = useRef();
+export default function MyFormcarry() {
+	// Call the "useForm" hook in your function component
+	const { state, submit } = useForm({
+		id: 'HQ10vdZOcC'
+	});
 
-	const sendEmail = (e) => {
-		e.preventDefault();
-
-		emailjs.sendForm('rhinospine_service', 'contact_form', form.current, 't0LUiQUyNh5dMeP94').then(
-			(result) => {
-				alert('Email successfully sent');
-			},
-			(error) => {
-				alert('Please resend email');
-			}
-		);
-		e.target.reset();
-	};
-
+	// Success message
+	if (state.submitted) {
+		return <div>Thank you! We received your submission.</div>;
+	}
 	return (
 		<form
-			ref={form}
 			className="mx-auto mb-4 my-4 lg:mx-none grid grid-cols-2 w-full lg:w-[50%] border shadow-md rounded-xl p-12 bg-gray-100"
-			onSubmit={sendEmail}
+			onSubmit={submit}
 		>
-			<label>Name</label>
+			<label htmlFor="user_name">Name</label>
 			<input
 				type="text"
+				id="user_name"
 				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"
 				name="user_name"
 				placeholder="Your Name"
 			/>
-			<label>Email</label>
+			<label htmlFor="email">Email</label>
 			<input
 				type="email"
+				id="email"
 				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"
 				name="user_email"
 				placeholder="Your email"
 			/>
-			<label>Your Message:</label>
+			<label htmlFor="message">Your Message:</label>
 			<textarea
 				name="message"
+				id="message"
 				rows="4"
 				placeholder="Your message..."
 				className="p-4 mb-4 border rounded-xl col-span-2 border-l-[#00013f] w-[90%] lg:w-[100%]"

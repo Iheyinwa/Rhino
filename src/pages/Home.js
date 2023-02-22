@@ -41,7 +41,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="drop-shadow-2xl rounded-xl h-16 p-8 mt-24 grid grid-cols-2 justify-items-center lg:flex lg:justify-between gap-8 items-center">
+			<div className="drop-shadow-2xl rounded-xl h-16 px-8 py-16 mt-24 grid grid-cols-2 justify-items-center lg:flex lg:justify-between gap-8 items-center bg-gray-100">
 				<img src={ansys} alt="ANSYS" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 				<img src={autocad} alt="AUTOCAD" width={200} height={200} className="lg:w-[90px] w-[50%]" />
 				<img src={blender} alt="BLENDER" width={200} height={200} className="lg:w-[90px] w-[50%]" />

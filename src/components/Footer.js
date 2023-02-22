@@ -25,18 +25,20 @@ export default function Footer() {
 				<a href="http://www.linkedin.com/company/rhinospine" className="flex items-center ">
 					<Linkedin /> <p className="font-bold">LinkedIn</p>
 				</a>
-				<a href="http://www.linkedin.com/company/rhinospine" className="flex items-center ">
+				<a href=" https://t.me/+2348039743897" className="flex items-center ">
 					<Telegram />
 					<p className="font-bold">Telegram</p>
 				</a>
-				<a href="http://www.linkedin.com/company/rhinospine" className="flex items-center ">
+				<a href="https://wa.me/+2348039743897" className="flex items-center ">
 					<Whatsapp />
 					<p className="font-bold">Whatsapp</p>
 				</a>
 			</div>
 			{/* <hr className="pb-[3px] lg:col-span-2" /> */}
 			<p className="lg:col-span-2 lg:text-center mx-[20%]">
-				<a href="https://storyset.com/work">Work illustrations by Storyset</a>
+				<a href="https://storyset.com/work" className="text-[10px]">
+					Work illustrations by Storyset
+				</a>
 			</p>
 		</footer>
 	);
